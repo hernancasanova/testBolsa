@@ -1,0 +1,32 @@
+
+#sidebar{
+    height: 100%;
+}
+#brand{
+    height:20%;
+    /* background-color: green; */
+}
+#menu{
+    height:80%;
+    /* background-color: rgb(233, 233, 244); */
+    text-align: center;
+}
+#main{
+    border: 1px solid black;
+    position: relative !important;
+    height: 100%;
+}
+#precios{
+    /* background-color: rgb(233, 233, 244); */
+    border: 1px solid black;
+    min-height: 300px;
+    max-height: 300px;
+    text-align: center;
+    overflow-y: scroll;
+}
+#grafico{
+    /* background-color: rgb(233, 233, 244); */
+    height: calc(100vh-300px);
+    border: 1px solid black;
+    text-align: center;
+}

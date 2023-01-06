@@ -1,0 +1,6 @@
+<div *ngIf="data.length>0; else elseBlock">
+    <div [chart]="chart"></div>
+</div>
+<ng-template #elseBlock>
+    Primero debe seleccionar un nemo 
+</ng-template>

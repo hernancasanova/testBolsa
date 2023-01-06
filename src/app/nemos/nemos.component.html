@@ -1,0 +1,6 @@
+<select name="nemos" id="nemos" (change)="changeNemo($event)">
+    <option value="">Seleccione</option>
+    <option *ngFor="let symbol of symbols; index  as i ">
+        {{symbol.symbol}}
+    </option>
+</select>

@@ -1,0 +1,20 @@
+<div *ngIf="data.length>0; else elseBlock">
+<table>
+    <thead>
+        <tr>
+            <th>Precio</th>
+            <th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let d of data; index  as i ">
+            <td>{{d.close}}</td>
+            <td>{{d.date|date:'shortDate'}}</td>
+          </tr>
+    </tbody>
+</table>
+</div>
+<ng-template #elseBlock>
+        <!-- <c-spinner aria-hidden="true" size="sm"></c-spinner> -->
+        Primero debe seleccionar un nemo 
+</ng-template>

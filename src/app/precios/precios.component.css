@@ -1,0 +1,10 @@
+table {
+   width: 100%;
+ }
+
+ thead {
+   position: sticky;
+   top: 0;
+   background-color: #fff;
+   z-index: 1;
+ }
